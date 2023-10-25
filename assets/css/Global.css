@@ -1,0 +1,29 @@
+* {
+    font-family: roboto, sans-serif;
+    /*padronização de borda*/
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #fcf8fc;
+}
+
+/*rem : medida relacional difrente do px que é fixo*/
+.content{
+    padding: 1rem;
+    background-color: white;
+    height: 100vh;
+    width: 100vh;
+}
+
+/*Media query para responsividade*/
+@media screen and (min-width: 992px) {
+    .content {
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
+    }
+  }
+
